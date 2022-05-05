@@ -6,3 +6,5 @@ this is a new line from 'Default'
 
 this is the last line from 'Default'
 this is another line from 'new_default'
+
+this is the last line from 'new_default'
