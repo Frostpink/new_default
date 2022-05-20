@@ -7,10 +7,13 @@ assignees: Frostpink
 
 ---
 
+## Closes Issue(s)
+
 Fixes #
 
-## Proposed Changes
+## Proposed Changes or Changes Include
 
   -
   -
   -
+  -[] 
