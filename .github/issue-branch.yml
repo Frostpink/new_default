@@ -1,5 +1,5 @@
 mode: auto # auto or chatops
-silent: true # should bot add comments
+silent: false # should bot add comments
 # branch names
 # tiny => example `i15`
 # short => example `issue-15`
