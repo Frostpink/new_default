@@ -1,1 +1,5 @@
-mode: chatops
+mode: chatops # auto
+silent: false
+branchName: short
+gitSafeReplacementChar: '-'
+defaultBranch: 'dev'
