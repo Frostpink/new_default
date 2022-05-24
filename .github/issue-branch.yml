@@ -1,4 +1,4 @@
-mode: chatops # auto
+mode: auto
 silent: false
 branchName: short
 gitSafeReplacementChar: '-'
