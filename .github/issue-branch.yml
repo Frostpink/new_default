@@ -1,0 +1,33 @@
+mode: auto # auto or chatops
+silent: true # should bot add comments
+# branch names
+# tiny => example `i15`
+# short => example `issue-15`
+# full => example `issue-15-fix-bug`
+# for custom => `'${issue.number}-${issue.title}'` or `'${issue.number}-${issue.title[0,64]}'`
+# for upper do `${issue.title^}` or lower do `${issue.title,}`
+branchName: short
+gitSafeReplacementChar: '-' # replace not allwed characters with '-'
+autoCloseIssue: false # should it close issue when linked pr is merged?
+# source branch for issue-branch
+defaultBranch: 'dev' 
+# if based on label, use next lines (it overrides `defaultBranch`
+# branches:
+#   - label: enhancement
+#     name: dev
+#   - label: 
+#      - bug
+#      - other
+#     name: staging
+#   - label: question
+#     skip: true # skip branch creation if label question
+
+# Copy attributes from issue 
+copyIssueDescriptionToPR: true
+copyIssueLabelsToPR: true
+copyIssueAssigneeToPR: true
+copyIssueProjectsToPR: true
+copyIssueMilestoneToPR: true
+
+# change comment message (ignored if `silent: true`)
+# commentMessage: 'Branch ${branchName} created for issue: ${issue.title}'
